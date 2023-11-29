@@ -51,7 +51,7 @@ function addToCart(menu) {
 
 <template>
   <div>
-    <Alert v-if="showToast" title="Pesanan Berhasil Ditambahkan"/>
+    <Alert v-if="showToast" title="Pesanan Anda Berhasil Ditambahkan"/>
     <div class="row mb-3">
       <div class="col-md-4"></div>
       <div class="col-md-4">
