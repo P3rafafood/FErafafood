@@ -75,7 +75,7 @@ function addToCart(menu) {
                 <h5 class="card-title">{{ food.name }}<span class="float-end"><Rupiah :angka="food.price"/></span></h5>
                 <p class="card-text">{{ food.desc }}</p>
                 <p class="card-text"><small class="text-body-secondary">&nbsp;</small></p>
-                <button type="button" class="btn btn-warning float-end text-white mb-3" @click="addToCart(food)">Tambah Pesanan</button>
+                <button type="button" class="btn btn-warning float-end text-white mb-3" @click="addToCart(food)">Tambah Pesanan Anda</button>
               </div>
             </div>
           </div>
@@ -116,4 +116,6 @@ function addToCart(menu) {
   </div>
 </template>
 
+
 <style scoped></style>
+
