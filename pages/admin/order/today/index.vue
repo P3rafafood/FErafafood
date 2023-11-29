@@ -43,8 +43,8 @@ const {data:resUpdate} = await useApiFetch(`/admin/order/${id}`, {
 function changeStatus(currentStatus) {
   let newStatus = ''
   switch (currentStatus) {
-    case 'waiting':
-      newStatus = 'process'
+    case 'Waiting':
+      newStatus = 'Process'
       break;
     case 'process':
       newStatus = 'paying'
