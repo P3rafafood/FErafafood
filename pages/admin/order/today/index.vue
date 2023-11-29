@@ -46,7 +46,7 @@ function changeStatus(currentStatus) {
     case 'waiting':
       newStatus = 'process'
       break;
-    case 'proses':
+    case 'process':
       newStatus = 'payment'
       break;
   
