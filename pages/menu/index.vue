@@ -99,7 +99,7 @@ function addToCart(menu) {
         <div class="card border-warning mb-3" style="max-width: 600px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img :src="drink.image" class="img-fluid rounded-start" :alt="drink.name">
+             
             </div>
             <div class="col-md-8">
               <div class="card-body">
