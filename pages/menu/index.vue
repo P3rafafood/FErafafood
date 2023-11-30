@@ -88,7 +88,7 @@ function addToCart(menu) {
       <div class="col-md-4">
         <div class="card text-bg-warning text-center">
           <div class="card-header">
-            <div class="card-title text-white">MENU MINUMAN RESTORAN</div>
+            <div class="card-title text-white">MENU MINUMAN</div>
           </div>
         </div>
       </div>
