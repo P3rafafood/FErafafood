@@ -22,7 +22,7 @@
               <NuxtLink class="nav-link" to="/order">Order</NuxtLink>
             </li>
             <li class="nav-item">
-              <NuxtLink class="btn btn-orange" to="/login">Sign In</NuxtLink>
+              <NuxtLink class="btn btn-orange" to="/login">Log In</NuxtLink>
             </li>
           </ul>
         </div>
