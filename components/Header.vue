@@ -16,10 +16,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <NuxtLink class="nav-link" to="/menu">Macam Menu</NuxtLink>
+              <NuxtLink class="nav-link" to="/menu">Menu</NuxtLink>
             </li>
             <li class="nav-item mx-2">
-              <NuxtLink class="nav-link" to="/order">Order Pesanan</NuxtLink>
+              <NuxtLink class="nav-link" to="/order">Order</NuxtLink>
             </li>
             <li class="nav-item">
               <NuxtLink class="btn btn-orange" to="/login">Log In</NuxtLink>
