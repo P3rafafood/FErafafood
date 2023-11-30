@@ -19,7 +19,7 @@
               <NuxtLink class="nav-link" to="/menu">Menu</NuxtLink>
             </li>
             <li class="nav-item mx-2">
-              <NuxtLink class="nav-link" to="/order">Order</NuxtLink>
+              <NuxtLink class="nav-link" to="/order">Order Pesanan</NuxtLink>
             </li>
             <li class="nav-item">
               <NuxtLink class="btn btn-orange" to="/login">Log In</NuxtLink>
