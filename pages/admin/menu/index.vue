@@ -47,7 +47,7 @@ definePageMeta({
           <table class="table">
             <thead>
               <tr>
-                <th scope="col"></th>
+                <th scope="col">Image</th>
                 <th scope="col">Name</th>
                 <th scope="col">Desc</th>
                 <th scope="col">Price</th>
@@ -68,7 +68,7 @@ definePageMeta({
                 <td>{{ menu.type }}</td>
                 <td>
                   <NuxtLink class="btn btn-warning text-white" :to="'/admin/menu/'+menu._id">Edit</NuxtLink>
-                  <button type="button" class="btn btn-danger mx-3" @click="deleteMenu(event, menu._id)">Delete</button>
+                  <button type="button" class="btn btn-danger mx-3" @click="deleteMenu($event, menu._id)">Delete</button>
                 </td>
               </tr>
             </tbody>

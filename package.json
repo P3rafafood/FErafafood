@@ -8,10 +8,12 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "watch": "nuxt dev --watch"
+    "watch": "nuxt dev --watch",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "gh-pages": "^6.1.0",
     "nuxt": "^3.8.1",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"

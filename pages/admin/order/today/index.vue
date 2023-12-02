@@ -10,7 +10,7 @@ const { data:res } = await useApiFetch('/admin/order', {
 
 const orders = res.value
 
-const btnLabel = ref('Process')
+const btnLabel = ref('Proces')
 watch(btnLabel, (newStatus) => {
   btnLabel.value = newStatus
 })
@@ -43,15 +43,15 @@ const {data:resUpdate} = await useApiFetch(`/admin/order/${id}`, {
 function changeStatus(currentStatus) {
   let newStatus = ''
   switch (currentStatus) {
-    case 'Waiting':
-      newStatus = 'Process'
+    case 'waiting':
+      newStatus = 'proses'
       break;
-    case 'Process':
-      newStatus = 'Paying'
+    case 'proses':
+      newStatus = 'payment'
       break;
   
     default:
-    newStatus = 'Finish'
+    newStatus = 'finish'
       break;
   }
 

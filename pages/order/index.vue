@@ -76,10 +76,6 @@ async function sendOrder() {
     showToast.value = false
   }, 2000)
 }
-
-definePageMeta({
-  layout: 'home'
-})
 </script>
 
 <template>

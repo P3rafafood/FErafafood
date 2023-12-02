@@ -21,7 +21,7 @@ definePageMeta({
         <div class="card" style="width: 18rem;">
           <div class="card-header">
             <div class="card-title">
-              Pesanan No Meja <span class="float-end">{{ transaction.table_number }}</span>
+              Pesananan No Meja <span class="float-end">{{ transaction.table_number }}</span>
             </div>
           </div>
           <ul class="list-group list-group-flush">

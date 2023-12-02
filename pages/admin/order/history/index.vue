@@ -20,6 +20,7 @@ definePageMeta({
         <div class="card mb-3" style="width: 18rem;">
           <div class="card-body">
             <ul class="list-group list-group-flush">
+              <li class="list-group-item">Order Date <span class="float-end"><strong><DateFormat :angka="order.created_at"/></strong></span></li>
               <li class="list-group-item">Table Number <span class="float-end"><strong>{{ order.table_number }}</strong></span></li>
               <li class="list-group-item">Order Name <span class="float-end"><strong>{{ order.order_name }}</strong></span></li>
               <li class="list-group-item">Status <span class="float-end"><strong>{{ order.status }}</strong></span></li>

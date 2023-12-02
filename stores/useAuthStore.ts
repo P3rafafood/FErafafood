@@ -24,9 +24,10 @@ export const useAuthStore = defineStore('auth', () => {
     })
 
     const myCookieToken = useCookie('token', { maxAge: 60 * 60 * 24 * 7 })
-    myCookieToken.value = res.value.token
+    myCookieToken.value = res.value.token as string
 
-    await fetchUser()
+    // await fetchUser()
+    // user.value = res.value.user as User
 
     return error
   }

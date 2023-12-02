@@ -1,7 +1,4 @@
 <script setup>
-definePageMeta({
-  layout: 'home'
-})
 </script>
 
 <template>
@@ -12,7 +9,7 @@ definePageMeta({
         <p class="mb-5 fs-5">Setiap gigitannya memiliki kelezatan yang berbeda, <br class="d-none d-xl-block" />harga terjangkau!</p>
       </div>
       <div class="col-md-7 col-lg-6">
-        <img class="pt-7 pt-md-0 w-100" src="/assets/img/profilresto.webp" alt="hero-header" />
+        <img class="pt-7 pt-md-0 w-100" src="/img/profilresto.webp" alt="hero-header" />
       </div>
     </div>
   </div>

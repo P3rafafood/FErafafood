@@ -19,21 +19,21 @@ definePageMeta({
       <div class="col-md-3 me-3">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Menu <span class="float-end">({{ dashboard.menu }})</span></h5>
+            <h5 class="card-title">Menu <span class="float-end">({{ dashboard?.menu }})</span></h5>
           </div>
         </div>
       </div>
       <div class="col-md-3 me-3">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Today Order <span class="float-end">({{ dashboard.today_order }})</span></h5>
+            <h5 class="card-title">Today Order <span class="float-end">({{ dashboard?.today_order }})</span></h5>
           </div>
         </div>
       </div>
       <div class="col-md-3 me-3">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">All Order <span class="float-end">({{ dashboard.all_order }})</span></h5>
+            <h5 class="card-title">All Order <span class="float-end">({{ dashboard?.all_order }})</span></h5>
           </div>
         </div>
       </div>

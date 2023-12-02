@@ -1,9 +1,5 @@
 <script setup>
 import { reactive, watch, onMounted, ref } from 'vue';
-definePageMeta({
-  layout: 'home'
-})
-
 const showToast = ref(false);
 
 const { data: resFoods } = await useApiFetch('/home/menu?type=makanan')
@@ -116,6 +112,4 @@ function addToCart(menu) {
   </div>
 </template>
 
-
 <style scoped></style>
-

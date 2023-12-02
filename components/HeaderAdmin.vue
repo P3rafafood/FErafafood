@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <NuxtLink to="/admin" class="navbar-brand">
-          <img src="/assets/img/logo.jpg" alt="logo" width="50px" height="50px">
+          <img src="/img/logo.jpg" alt="logo" width="50px" height="50px">
         </NuxtLink>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent">

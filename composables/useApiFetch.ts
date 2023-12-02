@@ -1,7 +1,11 @@
 import type { UseFetchOptions } from 'nuxt/app'
 
 export function useApiFetch<T> (path: string | (() => string), options: UseFetchOptions<T> = {}) {
-  let headers: any = {}
+  let headers: any = {
+    "referer": "http://103.168.147.245",
+    "Accept": "application/json"
+  }
+
   useFetch('http://103.168.147.245/sanctum/csrf-cookie')
   const token = useCookie('XSRF-TOKEN')
 
@@ -12,7 +16,7 @@ export function useApiFetch<T> (path: string | (() => string), options: UseFetch
   // if (process.server) {
   //   headers = {
   //     ...headers,
-  //     ...useRequestHeaders(["referer", "cookie"])
+  //     ...useRequestHeaders(["cookie"])
   //   }
   // }
 
