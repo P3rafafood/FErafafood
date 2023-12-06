@@ -1,6 +1,6 @@
 <div>
     <x-alert />
-    <x-menu-header title="Makanan" />
+    <x-menu-header title="Minuman" />
     <div class="row">
         @forelse ($drinks as $drink)
         <div class="col-md-6">
