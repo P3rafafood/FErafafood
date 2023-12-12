@@ -51,7 +51,7 @@
                         <a class="nav-link {{ (Route::is('order')) ? 'active' : '' }}" href="{{ route('order') }}">Order</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-orange {{ (Route::is('login')) ? 'active' : '' }}" href="{{ route('login') }}">Sign In</a>
+                        <a class="btn btn-orange {{ (Route::is('login')) ? 'active' : '' }}" href="{{ route('login') }}">LogIn</a>
                     </li>
                 </ul>
             </div>
