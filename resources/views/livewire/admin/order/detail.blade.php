@@ -18,7 +18,7 @@
             </ul>
             <div class="card-footer">
                 @if ($from == 'history')
-                    <a href="{{ route('admin.order.history') }}" class="btn btn-danger">Back</a>
+                    <a href="{{ route('admin.order.history') }}" class="btn btn-danger">Kembali</a>
                 @else
                     <a href="{{ route('admin.order.today') }}" class="btn btn-danger">Back</a>
                 @endif
