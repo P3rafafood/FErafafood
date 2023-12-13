@@ -4,7 +4,7 @@
         <div class="card-header">
             <div class="card-title">
                 <div class="row">
-                    <div class="col-md-6">Menu Manager</div>
+                    <div class="col-md-6">Menu Control</div>
                     <div class="col-md-6">
                         <a href="{{ route('admin.menu.create') }}" class="btn btn-sm btn-primary float-end">Tambah Data Menu</a>
                     </div>
