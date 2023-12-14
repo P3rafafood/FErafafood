@@ -16,7 +16,7 @@
                 <thead>
                     <tr>
                         <th>#</th>
-                        <th>Thumbnail</th>
+                        <th>Item</th>
                         <th>Nama</th>
                         <th>Deskripsi</th>
                         <th>Harga</th>
