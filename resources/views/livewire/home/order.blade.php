@@ -62,7 +62,7 @@
                                                     <div class="row mb-3">
                                                         <div class="col-md-6">
                                                             <div class="input-group">
-                                                                <label class="input-group-text" for="payment">Pembayaran</label>
+                                                                <label class="input-group-text" for="payment">Pilih Metode Pembayaran</label>
                                                                 <select class="form-select @error('payment') is-invalid @enderror" id="payment"
                                                                     wire:model='payment'>
                                                                     <option selected>Choose...</option>
