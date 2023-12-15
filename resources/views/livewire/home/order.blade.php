@@ -96,7 +96,7 @@
                         <tr>
                             <th>Name</th>
                             <th>Qty</th>
-                            <th>Harga</th>
+                            <th>Price</th>
                             <th>Action</th>
                         </tr>
                     </thead>
