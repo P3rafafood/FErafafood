@@ -65,7 +65,7 @@
                                                                 <label class="input-group-text" for="payment">Pembayaran</label>
                                                                 <select class="form-select @error('payment') is-invalid @enderror" id="payment"
                                                                     wire:model='payment'>
-                                                                    <option selected>Choose...</option>
+                                                                    <option selected>Pilih</option>
                                                                     <option value="cash">Cash</option>
                                                                     <option value="debit">Debit</option>
                                                                 </select>
