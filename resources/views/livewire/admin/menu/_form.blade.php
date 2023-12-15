@@ -36,7 +36,7 @@
     </div>
     <div class="col-md-12">
         <div class="mb-3">
-            <h6>Thumbnail</h6>
+            <h6>Gambar</h6>
             <input class="form-control form-control-sm" id="image" type="file" wire:model='image'>
         </div>
     </div>

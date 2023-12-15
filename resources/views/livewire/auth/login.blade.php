@@ -2,7 +2,7 @@
     <div class="auth-logo">
         <a href="{{ route('home') }}"><img src="{{ asset('assets/compiled/svg/logo.svg') }}" alt="Logo"></a>
     </div>
-    <h1 class="auth-title">Login</h1>
+    <h1 class="auth-title">Log in</h1>
 
     <form wire:submit='store' method="POST">
         <div class="form-group position-relative has-icon-left mb-4">
@@ -17,6 +17,6 @@
                 <i class="bi bi-shield-lock"></i>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Login</button>
+        <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
     </form>
 </div>
