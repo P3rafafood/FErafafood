@@ -52,7 +52,7 @@
                                                                     <i class="bi bi-journal-richtext"></i>
                                                                 </span>
                                                                 <input type="number" class="form-control @error('table_number') is-invalid @enderror"
-                                                                    placeholder="Table No" wire:model='table_number'>
+                                                                    placeholder="No Meja" wire:model='table_number'>
                                                             </div>
                                                             @error('table_number')
                                                             <small class="text-danger">{{ $message }}</small>
@@ -65,7 +65,7 @@
                                                                 <label class="input-group-text" for="payment">Pembayaran</label>
                                                                 <select class="form-select @error('payment') is-invalid @enderror" id="payment"
                                                                     wire:model='payment'>
-                                                                    <option selected>Choose...</option>
+                                                                    <option selected>Pilih</option>
                                                                     <option value="cash">Cash</option>
                                                                     <option value="debit">Debit</option>
                                                                 </select>
@@ -96,7 +96,7 @@
                         <tr>
                             <th>Name</th>
                             <th>Qty</th>
-                            <th>Harga</th>
+                            <th>Price</th>
                             <th>Action</th>
                         </tr>
                     </thead>
