@@ -52,7 +52,7 @@
                                                                     <i class="bi bi-journal-richtext"></i>
                                                                 </span>
                                                                 <input type="number" class="form-control @error('table_number') is-invalid @enderror"
-                                                                    placeholder="Table No" wire:model='table_number'>
+                                                                    placeholder="No Meja" wire:model='table_number'>
                                                             </div>
                                                             @error('table_number')
                                                             <small class="text-danger">{{ $message }}</small>
