@@ -23,17 +23,17 @@ class Create extends Component
     public function store()
     {
         $menu = new Menu();
-        $imagePath = $this->image->store('images', 'public');
+        // $imagePath = $this->image->store('images', 'public');
         $data = [
             'name'      => $this->name,
             'price'     => $this->price,
             'desc'      => $this->desc,
             'type'      => $this->type,
-            'image'     => $imagePath,
+            'image'     => convertToBase64($this->image),
         ];
         $menu->storeMenu($data);
         session()->flash('success','Data Menu Berhasil Ditambahkan');
-        Storage::disk('public')->delete($imagePath);
+        // Storage::disk('public')->delete($imagePath);
         return redirect()->route('admin.menu.index');
     }
 }

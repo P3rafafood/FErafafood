@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> --}}
     <title>Rafa order food - Admin </title>
     <link rel="shortcut icon" href="{{ asset('assets/compiled/svg/favicon.svg') }}" type="image/x-icon">
     <link rel="shortcut icon"

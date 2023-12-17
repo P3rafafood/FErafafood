@@ -42,14 +42,14 @@ class Edit extends Component
             'type'      => $this->type
         ];
         if ($this->image) {
-            $imagePath = $this->image->store('images', 'public');
-            $data['image'] = $imagePath;
+            // $imagePath = $this->image->store('images', 'public');
+            $data['image'] = convertToBase64($this->image);
         }
         $menu->updateMenu($this->menu->_id, $data);
         session()->flash('success','Data Menu Berhasil Diubah');
-        if ($this->image) {
-            Storage::disk('public')->delete($imagePath);
-        }
+        // if ($this->image) {
+        //     Storage::disk('public')->delete($imagePath);
+        // }
         return redirect()->route('admin.menu.index');
     }
 }

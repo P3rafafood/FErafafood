@@ -35,10 +35,7 @@ class Menu extends Service
             'Authorization' => 'Bearer '.session('token')
         ];
 
-        $files = [
-            'image' => storage_path('app/public/' . $request['image'])
-        ];
-        return $this->requestService('POST', '/api/admin/menu', $request, $headers, $files);
+        return $this->requestService('POST', '/api/admin/menu', $request, $headers);
     }
 
     public function updateMenu($id, $request)
@@ -46,13 +43,6 @@ class Menu extends Service
         $headers = [
             'Authorization' => 'Bearer '.session('token')
         ];
-
-        if (isset($request['image'])) {
-            $files = [
-                'image' => storage_path('app/public/' . $request['image'])
-            ];
-            return $this->requestService('PUT', "/api/admin/menu/$id", $request, $headers, $files);
-        }
 
         return $this->requestService('PUT', "/api/admin/menu/$id", $request, $headers);
     }

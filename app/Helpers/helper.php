@@ -38,3 +38,10 @@ if (!function_exists('getStatusOrder')) {
         return $result;
     }
 }
+
+if (!function_exists('convertToBase64')) {
+    function convertToBase64($image) {
+        $result = "data:image/png;base64,".base64_encode(file_get_contents($image->path()));
+        return $result;
+    }
+}
