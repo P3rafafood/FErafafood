@@ -39,12 +39,15 @@ class Edit extends Component
             'name'      => $this->name,
             'price'     => $this->price,
             'desc'      => $this->desc,
-            'type'      => $this->type
+            'type'      => $this->type,
+            'image'     => null
         ];
+
         if ($this->image) {
             // $imagePath = $this->image->store('images', 'public');
             $data['image'] = convertToBase64($this->image);
         }
+
         $menu->updateMenu($this->menu->_id, $data);
         session()->flash('success','Data Menu Berhasil Diubah');
         // if ($this->image) {
