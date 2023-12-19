@@ -21,7 +21,7 @@
                             <li>
                                 <h6 class="dropdown-header">Mail</h6>
                             </li>
-                            <li><a class="dropdown-item" href="#">Bukan baru mail</a></li>
+                            <li><a class="dropdown-item" href="#">No new mail</a></li>
                         </ul>
                     </li> --}}
                     <livewire:admin.order.notif>
@@ -57,7 +57,7 @@
                         <li>
                             <a class="dropdown-item" href="{{ route('admin.logout') }}">
                                 <i class="icon-mid bi bi-box-arrow-left me-2"></i>
-                                LogOut
+                                Logout
                             </a>
                         </li>
                     </ul>
