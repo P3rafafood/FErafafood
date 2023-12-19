@@ -21,7 +21,7 @@
                             <li>
                                 <h6 class="dropdown-header">Mail</h6>
                             </li>
-                            <li><a class="dropdown-item" href="#">No new mail</a></li>
+                            <li><a class="dropdown-item" href="#">Bukan baru mail</a></li>
                         </ul>
                     </li> --}}
                     <livewire:admin.order.notif>
