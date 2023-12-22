@@ -4,7 +4,7 @@
             <div class="card-header">
                 <div class="card-title">
                     <div class="row">
-                        <div class="col-md-6">Pesanan No Meja</div>
+                        <div class="col-md-6">Pesanan Nomer Meja</div>
                         <div class="col-md-6">
                             <span class="float-end">{{ $order->table_number }}</span>
                         </div>
