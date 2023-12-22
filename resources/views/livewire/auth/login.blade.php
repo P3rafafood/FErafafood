@@ -17,6 +17,6 @@
                 <i class="bi bi-shield-lock"></i>
             </div>
         </div>
-        <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in admin</button>
+        <button type="submit" class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Log in</button>
     </form>
 </div>
