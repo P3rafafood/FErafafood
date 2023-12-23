@@ -6,7 +6,7 @@
                 <div class="card-header">
                     <div class="card-title">
                         <div class="row">
-                            <div class="col-md-6">Pemesanan Menu Order</div>
+                            <div class="col-md-6">Pemesanan Menu</div>
                             <div class="col-md-6">
                                 <span class="float-end">{{ \Carbon\Carbon::parse($item->order_date)->format('d-m-Y') }}</span>
                             </div>
@@ -16,7 +16,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Nomor Meja <span class="float-end">{{ $item->table_number }}</span></li>
                     <li class="list-group-item">Nama Pemesan <span class="float-end">{{ $item->order_name }}</span></li>
-                    <li class="list-group-item">Status Pesanan <span class="float-end">{{ $item->status }}</span></li>
+                    <li class="list-group-item">Status <span class="float-end">{{ $item->status }}</span></li>
                     <li class="list-group-item">Total Harga <span class="float-end">Rp. {{ rupiah($item->grand_total) }}</span></li>
                 </ul>
                 <div class="card-footer">
