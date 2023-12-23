@@ -16,7 +16,7 @@
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Nomor Meja <span class="float-end">{{ $item->table_number }}</span></li>
                     <li class="list-group-item">Nama Pemesan <span class="float-end">{{ $item->order_name }}</span></li>
-                    <li class="list-group-item">Status <span class="float-end">{{ $item->status }}</span></li>
+                    <li class="list-group-item">Status Pesanan <span class="float-end">{{ $item->status }}</span></li>
                     <li class="list-group-item">Total Harga <span class="float-end">Rp. {{ rupiah($item->grand_total) }}</span></li>
                 </ul>
                 <div class="card-footer">
