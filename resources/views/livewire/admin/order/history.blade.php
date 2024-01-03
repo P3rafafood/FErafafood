@@ -20,7 +20,7 @@
                     <li class="list-group-item">Total Harga <span class="float-end">Rp. {{ rupiah($item->grand_total) }}</span></li>
                 </ul>
                 <div class="card-footer">
-                    <a href="{{ route('admin.order.detail', [$item->_id, 'history']) }}" class="btn btn-primary float-end">Detail Pesanan</a>
+                    <a href="{{ route('admin.order.detail', [$item->_id, 'history']) }}" class="btn btn-primary float-end">Detail</a>
                 </div>
             </div>
         </div>
