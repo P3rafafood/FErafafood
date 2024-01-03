@@ -18,7 +18,7 @@
                         </div>
                         <div class="notification-text ms-4">
                             <p class="notification-title font-bold">Ada Pesanan Baru</p>
-                            <p class="notification-subtitle font-thin text-sm">Meja No {{ $notif->table_number }}</p>
+                            <p class="notification-subtitle font-thin text-sm">Nomer Meja {{ $notif->table_number }}</p>
                         </div>
                     </a>
                 </li>
