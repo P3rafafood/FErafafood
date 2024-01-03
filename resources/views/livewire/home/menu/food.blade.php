@@ -24,7 +24,7 @@
         <div class="col-md-12">
             <div class="card text-bg-warning text-center">
                 <div class="card-header">
-                    <div class="card-title text-white text-center">Tidak ada data ditemukan</div>
+                    <div class="card-title text-white text-center">No Data Found</div>
                 </div>
             </div>
         </div>
