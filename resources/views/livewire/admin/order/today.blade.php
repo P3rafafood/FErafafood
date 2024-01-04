@@ -7,7 +7,7 @@
                 <div class="card-header">
                     <div class="card-title">
                         <div class="row">
-                            <div class="col-md-6">Pemesanan</div>
+                            <div class="col-md-6">Pemesanan Menu</div>
                             <div class="col-md-6">
                                 <span class="float-end">{{ \Carbon\Carbon::parse($item->order_date)->format('d-m-Y') }}</span>
                             </div>
