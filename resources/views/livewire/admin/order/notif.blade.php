@@ -23,7 +23,7 @@
                     </a>
                 </li>
             @empty
-                <li class="dropdown-item notification-item">Tidak Ada Pesanan Baru</li>
+                <li class="dropdown-item notification-item">Tidak Ada Pesanan Baru Masuk</li>
             @endforelse
             @if (count($notifications) > 0)
                 <li>
