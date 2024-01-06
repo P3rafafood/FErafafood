@@ -17,13 +17,13 @@
                             <i class="bi bi-cart-check"></i>
                         </div>
                         <div class="notification-text ms-4">
-                            <p class="notification-title font-bold">Ada Pesanan Baru Masuk</p>
+                            <p class="notification-title font-bold">Ada Pesanan Baru</p>
                             <p class="notification-subtitle font-thin text-sm">Meja No {{ $notif->table_number }}</p>
                         </div>
                     </a>
                 </li>
             @empty
-                <li class="dropdown-item notification-item">Tidak Ada Pesanan Baru Masuk</li>
+                <li class="dropdown-item notification-item">Tidak Ada Pesanan Baru</li>
             @endforelse
             @if (count($notifications) > 0)
                 <li>
