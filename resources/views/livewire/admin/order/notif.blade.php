@@ -17,7 +17,7 @@
                             <i class="bi bi-cart-check"></i>
                         </div>
                         <div class="notification-text ms-4">
-                            <p class="notification-title font-bold">Ada Pesanan Baru</p>
+                            <p class="notification-title font-bold">Ada Pesanan Baru Masuk</p>
                             <p class="notification-subtitle font-thin text-sm">Meja No {{ $notif->table_number }}</p>
                         </div>
                     </a>
