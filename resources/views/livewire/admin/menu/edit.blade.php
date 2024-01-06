@@ -3,7 +3,7 @@
         <div class="card-header">
             <div class="card-title">
                 <div class="row">
-                    <div class="col-md-6">Ubah Data Menu</div>
+                    <div class="col-md-6">Mengubah Data Menu</div>
                     <div class="col-md-6">
                         <a href="{{ route('admin.menu.index') }}" class="btn btn-sm btn-danger float-end">Back</a>
                     </div>
