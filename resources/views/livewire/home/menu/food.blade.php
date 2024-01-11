@@ -11,7 +11,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">{{ $food->name }}<span class="float-end"></h5>
+                            <h5 class="card-title">{{ $food->name }}<span class="float-end">Rp. {{ rupiah($food->price) }}</h5>
                             <p class="card-text">{{ $food->desc }}</p>
                             <p class="card-text"><small class="text-body-secondary">&nbsp;</small></p>
                             <button type="button" class="btn btn-warning float-end text-white mb-3" wire:click="addToCart('{{ $food->_id }}', '{{ $food->name }}', '{{ $food->price }}')">Tambah Pesanan</button>
